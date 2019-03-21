@@ -2,8 +2,10 @@
 /* Includes campus, field of study, cumulative GPA, number of fails/withdrawals in courses, number of credits completed at other campuses */
 
 SELECT 
-	DISTINCT A.EMPLID AS 'Student ID', A.STRM AS 'EB Term', 
-	A.EXP_GRAD_TERM AS 'Exp Grad Term', A.ACAD_CAREER AS 'Career', 
+	DISTINCT A.EMPLID AS 'Student ID', 
+	A.STRM AS 'EB Term', 
+	A.EXP_GRAD_TERM AS 'Exp Grad Term', 
+	A.ACAD_CAREER AS 'Career', 
 	A.ACAD_PROG AS 'Program', 
 	A.ACAD_PLAN AS 'Plan',
 	A.BERK_IR_SCHOOL AS 'School', 
